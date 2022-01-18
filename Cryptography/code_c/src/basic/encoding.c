@@ -8,7 +8,7 @@ SCHAR * ascii2hex(SCHAR *dest, SCHAR *src, INT32 src_len)
     INT32 i = 0;
     for(; i < src_len; i++)
     {
-        /* 鍙栭珮浣嶅洓瀛楄妭杩涜杞崲 */
+        /* 取高位四字节进行转换 */
         temp = (*tmp_src & 0xf0) >> 4;
         if (temp < CHAR10)
         {
@@ -20,7 +20,7 @@ SCHAR * ascii2hex(SCHAR *dest, SCHAR *src, INT32 src_len)
             // tmp_dest = 'a' + temp - 10;
         }
         tmp_dest ++;
-        /* 鍙栦綆浣嶅洓瀛楄妭杩涜杞崲 */
+        /* 取低位四字节进行转换 */
         temp = *tmp_src & 0x0f;
         if (temp < CHAR10)
         {

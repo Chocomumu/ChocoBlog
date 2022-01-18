@@ -4,4 +4,4 @@
 ### ascii2letter
 
 show English upper letter using ascii char  
-浣跨敤ASCII瀛楃鏄剧ず鑻辨枃澶у啓瀛楁瘝 
+使用ASCII字符显示英文大写字母 

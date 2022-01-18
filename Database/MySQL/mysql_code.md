@@ -1,9 +1,9 @@
-# MySQLè¿”å›žç è®°å½•
-### æœ¬æ–‡ç®€å•è®°å½•ä¸‹é‡åˆ°çš„MySQLè¿”å›žç 
+# MySQL·µ»ØÂë¼ÇÂ¼
+### ±¾ÎÄ¼òµ¥¼ÇÂ¼ÏÂÓöµ½µÄMySQL·µ»ØÂë
 ## 100
-æ²¡æœ‰æ‰¾åˆ°æ•°æ®
+Ã»ÓÐÕÒµ½Êý¾Ý
 ## 1146
-æœªæ‰¾åˆ°è¡¨ï¼Œæ£€æŸ¥ä¸‹æ•°æ®åº“ã€è¡¨ï¼Œéƒ½æ²¡æœ‰é—®é¢˜è€ƒè™‘æ•°æ®åº“å¤§å°å†™çš„åŒºåˆ†æ”¯æŒ
+Î´ÕÒµ½±í£¬¼ì²éÏÂÊý¾Ý¿â¡¢±í£¬¶¼Ã»ÓÐÎÊÌâ¿¼ÂÇÊý¾Ý¿â´óÐ¡Ð´µÄÇø·ÖÖ§³Ö
 ## 1248
 Every derived table must have its own alias
-æœªå£°æ˜Žaliasé”™è¯¯
+Î´ÉùÃ÷alias´íÎó
