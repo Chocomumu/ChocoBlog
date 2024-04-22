@@ -2,9 +2,10 @@
 ```
 Syntax:	    location [ = | ~ | ~* | ^~ ] uri { ... }
             location @name { ... }
-Default:	—
-Context:	server, location
+Default:    —
+Context:    server, location
 ```
+
 ### location配置可以有两种标记方法：  
 1.修饰符 + uri  
 这种方式根据请求的uri进行匹配；  
@@ -34,6 +35,7 @@ location = uri {
 }
 ```
 精准匹配的优先级最高。 
+
 ##### 相关实验
 [精准匹配](#实验一精准匹配)  
 
@@ -48,6 +50,7 @@ location uri {
     [configuration]
 }
 ```
+
 ##### 相关实验
 [无修饰符前缀匹配](#实验二无修饰符前缀匹配)  
 
@@ -64,10 +67,12 @@ location =/ {
     [configuration]
 }
 ```
+
 ##### 相关实验
 ["/"的精准匹配](#实验四slash的精准匹配)  
 
 注：特别的，对于根路径匹配，无路请求的域名或IP后是否带"/"，都会命中"/"的精准匹配。  
+
 #### 带修饰符的前缀匹配
 前缀匹配可以通过修饰符"^~"显式表示，语法如下。  
 ```nginx
@@ -103,6 +108,7 @@ location ~* uri {
     [configuration]
 }
 ```
+
 ##### 相关实验
 [正则匹配](#正则匹配)  
 
